@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Layout</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 10px 50px;
+            gap: 30px;
+
+        }
+        .container > div{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        img{
+            width: 100%;
+            height: 400px;
+        }
+        .cart_header{ 
+            overflow: hidden;
+        }
+        .cart_footer{
+            padding: 20px;
+            text-align: center;
+        }
+        .cart_footer h2{
+            font-weight: bold;
+        }
+        .cart_footer button{
+            background-color: skyblue;
+            border: none;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div>
+            <div class="cart_header">
+                <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-09-18/Screenshot%202024-09-18%20161253_184495.png" alt="">
+            </div>
+            <div class="cart_footer">
+                <h2>Doctor Strange 2</h2>
+                <p>Rating : 4.5</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
